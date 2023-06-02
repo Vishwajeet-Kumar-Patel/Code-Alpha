@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nike</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+      <div class="navBar"><input type="text" name="search" id="search">
+        <button class="btn btn-sm">Search</button>
+        <svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="35px" height="35px" fill="none"><path stroke="currentColor" stroke-width="2.0" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path></svg>
+        <svg aria-hidden="true" class="pre-nav-design-icon" focusable="false" viewBox="0 0 24 24" role="img" width="35px" height="35px" fill="none"><path stroke="currentColor" stroke-width="2.0" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path></svg>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-29MyNYwPxn0WDdV82YfC-M3RzBZmjkKGpQ&usqp=CAU" alt="logo"></div>
+        <h1>Nike Shoes</h1>
+        <ul>
+          <li><a href="#trending">Trending</a></li>
+          <li><a href="#men">Men</a></li>
+          <li><a href="#women">Women</a></li>
+          <li><a href="#kids">Kids</a></li>
+          <li><a href="#sneakers">SNKRS</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="container">
+       
+      </div>
+    </div>
+  </header>
+
+  <section id="services">
+    <div class="container">
+      <h2>Trending</h2>
+      <div class="services-grid">
+        <div class="service">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Y-iyCWET4Oems-ArjYVpAnhPfhCLFz22Yg&usqp=CAU" alt="img">
+          <h3>Nike Vomero 16</h3>
+          <p>$200</p>
+        </div>
+        <div class="service">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_UkD8pxmcnTYFhR0hKX92ACac9wTgWvoug&usqp=CAU" alt="Service 2">
+          <h4>Nike Air Zoom G.T.</h4>
+          <p>$450</p>
+        </div>
+        <div class="service">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRcMXEDmcnbqSqFZ0nnfx-TaOBz97EJELOgA&usqp=CAU" alt="Service 3">
+          <h4>Nike Renew Ride 5</h4>
+          <p>$350</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Home Company. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
